@@ -1,0 +1,77 @@
+/* Normalize browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #f06292;
+  --light-gray: #f8f9fa;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px; /* Increase heading font size */
+}
+
+#container {
+  display: flex;
+}
+
+#visualization {
+  flex: 2;
+  margin: 10px;
+  background-color: #f8f9fa; /* Use light gray background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle drop shadow */
+}*/
+
+#sideContainer {
+  flex: 1;
+  padding: 5px;
+  background-color: #f4f4f4;
+}
+
+#controlsForm {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px; /* Subtle rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px; /* Use slightly larger font size for labels */
+}
+
+input[type="range"],
+input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+#applyChangesBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; /* More modern button style */
+  cursor: pointer;
+  font-size: 18px; /* Use slightly larger font size for button text */
+}
+
+#applyChangesBtn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle elevation on hover */
+}
