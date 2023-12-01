@@ -52,7 +52,7 @@
   </div>
 </div>
 <script>
-  d3.json("../data/coauthors.json").then(function (data) {
+  d3.json("coauthors.json").then(function (data) {
     let svg = d3.select('#visualization').append("svg").attr("viewBox", "0 0 1000 800")
 
     simulate(data, svg) // main function to make network
